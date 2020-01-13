@@ -1,0 +1,6 @@
+@import url(./_wide/organizers__block_wide.css);
+
+.organizers__block {
+  width: 50%;
+  margin-top: 75px;
+}

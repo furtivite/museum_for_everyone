@@ -1,0 +1,7 @@
+@import url(./_wide/organizers__picture-block_wide.css);
+
+.organizers__picture-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
