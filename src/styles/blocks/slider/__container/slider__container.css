@@ -1,0 +1,8 @@
+.slider__container {
+  width: 100%;
+  margin: 85px auto 97px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

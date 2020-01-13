@@ -1,3 +1,12 @@
+@import url(./__container/slider__container.css);
+@import url(./__item/slider__item.css);
+@import url(./__img/slider__img.css);
+@import url(./__title-block/slider__title-block.css);
+@import url(./__title/slider__title.css);
+@import url(./__link-block/slider__link-block.css);
+@import url(./__line/slider__line.css);
+@import url(./__link/slider__link.css);
+
 .slider {
   width: 100%;
 
