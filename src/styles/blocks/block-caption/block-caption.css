@@ -1,7 +1,6 @@
+@import url(./_rose/block-caption_rose.css);
+@import url(./__container/block-caption__container.css);
+
 .block-caption {
   width: 100%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
