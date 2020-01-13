@@ -1,0 +1,12 @@
+.block-caption__subcaption {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  letter-spacing: -0.005em;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}

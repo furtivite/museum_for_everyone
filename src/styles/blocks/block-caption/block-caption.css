@@ -1,5 +1,6 @@
 @import url(./_rose/block-caption_rose.css);
 @import url(./__container/block-caption__container.css);
+@import url(./__subcaption/block-caption__subcaption.css);
 
 .block-caption {
   width: 100%;

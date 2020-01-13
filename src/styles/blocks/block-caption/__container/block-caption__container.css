@@ -1,3 +1,6 @@
+@import url(./_align-left/block-caption__container_align-left.css);
+@import url(./_subcaption/block-caption__container_subcaption.css);
+
 .block-caption__container {
   width: 100%;
   text-align: center;

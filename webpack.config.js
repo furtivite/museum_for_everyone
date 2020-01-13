@@ -60,6 +60,13 @@ module.exports = {
             chunks: ['index'],
             filename: 'index.html'
         }),
+        new HtmlWebpackPlugin({
+            inject: false,
+            hash: true,
+            template: './src/projects.html',
+            chunks: ['projects'],
+            filename: 'projects.html'
+        }),
         new WebpackMd5Hash(),
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css'

@@ -1,5 +1,5 @@
 .text-block__paragraph {
-  font-family: 'Calibri', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -9,6 +9,6 @@
   letter-spacing: 0.02em;
 
   /* прописать верные отступы */
-  margin-block-start: 0px;
-  margin-block-end: 0px;
+  /*margin-block-start: 0px;
+  margin-block-end: 0px;*/
 }

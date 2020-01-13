@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Pribambas';
+  font-style:  normal;
+  font-weight: 400;
+  src:
+    url("./Pribambas-Regular.eot") format("eot"),
+    url("./Pribambas-Regular.woff2") format("woff2"),
+    url("./Pribambas-Regular.woff") format("woff");
+}
+

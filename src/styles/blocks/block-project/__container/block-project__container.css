@@ -1,0 +1,6 @@
+.block-project__container {
+  margin: 48px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

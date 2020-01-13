@@ -2,6 +2,7 @@
 @import url(./__container/main__container.css);
 @import url(./__text-block/main__text-block.css);
 @import url(./__block-caption/main__block-caption.css);
+@import url(./__block-project/main__block-project.css);
 @import url(./__slider/main__slider.css);
 @import url(./__button-block/main__button-block.css);
 @import url(./__organizers/main__organizers.css);
