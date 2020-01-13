@@ -1,6 +1,6 @@
 {
   "name": "museum_for_everyone",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Музей для всех",
   "main": "index.js",
   "scripts": {

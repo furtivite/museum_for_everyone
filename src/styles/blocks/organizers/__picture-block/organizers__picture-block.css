@@ -5,3 +5,15 @@
   justify-content: flex-start;
   align-items: center;
 }
+
+@media (max-width: 1024px) {
+  .organizers__picture-block {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 425px) {
+  .organizers__picture-block {
+    justify-content: center;
+  }
+}

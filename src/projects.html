@@ -36,6 +36,13 @@
           </li>
         </ul>
       </nav>
+      <picture class="header__menu-item">
+        <img
+          src="<%=require('./img/menu.png')%>"
+          alt="инклюзивный музей"
+          srcset="<%=require('./img/menu@2x.png')%> 2x, <%=require('./img/menu.png')%> 1x"
+          class="header__menu">
+      </picture>
     </div>
   </header>
   <main class="body__main main">
@@ -118,8 +125,8 @@
         </h3>
       </div>
     </section>
-    <section class="main__block-project block-project block-project_rtl">
-      <div class="main__container block-project__container">
+    <section class="main__block-project block-project block-project">
+      <div class="main__container block-project__container block-project__container_rtl">
         <div class="block-project__image-place block-project__image-place_rtl">
           <div class="block-project__slider">
             <div class="block-project__slider-item">

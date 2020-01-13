@@ -1,3 +1,9 @@
 .block-project .block-project__text-place_rtl {
   align-items: flex-end;
 }
+
+@media (max-width: 425px) {
+  .block-project .block-project__text-place_rtl {
+    align-items: flex-start;
+  }
+}

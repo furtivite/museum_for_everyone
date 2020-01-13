@@ -1,6 +1,19 @@
+@import url(./_rtl/block-project__container_rtl.css);
+
 .block-project__container {
   margin: 48px auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
+
+@media (max-width: 425px) {
+  .block-project__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+

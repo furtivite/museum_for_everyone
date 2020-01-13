@@ -6,3 +6,12 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 425px) {
+  .slider__container {
+    margin: 30px auto 0px;
+    flex-direction: column;
+  }
+}
+
+

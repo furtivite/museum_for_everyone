@@ -9,3 +9,10 @@
 
   padding: 24px 20px 33px;
 }
+
+@media (max-width: 425px) {
+  .slider__title-block {
+    max-width: 218px;
+    bottom: -40px;
+  }
+}

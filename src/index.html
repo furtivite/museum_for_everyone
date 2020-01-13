@@ -36,15 +36,22 @@
           </li>
         </ul>
       </nav>
+      <picture class="header__menu-item">
+        <img
+          src="<%=require('./img/menu.png')%>"
+          alt="инклюзивный музей"
+          srcset="<%=require('./img/menu@2x.png')%> 2x, <%=require('./img/menu.png')%> 1x"
+          class="header__menu">
+      </picture>
     </div>
   </header>
   <main class="body__main main">
     <section class="main__primary primary">
       <div class="main__container primary__container">
         <h1 class="primary__caption caption caption_h1 caption_blue">
-          всероссийская инклюзивная акция
+          всероссийская инклюзивная&nbsp;акция
         </h1>
-        <picture>
+        <picture class="primary__picture">
           <img
             src="<%=require('./img/primary__img.png')%>"
             alt="музей для всех"

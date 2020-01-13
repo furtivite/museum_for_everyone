@@ -1,8 +1,14 @@
 .header__container {
-  width: 100%;
+  width: 94%;
   max-width: 1360px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 425px) {
+  .header__container {
+    width: 84%;
+  }
 }

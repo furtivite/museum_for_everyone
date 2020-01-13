@@ -4,3 +4,11 @@
 
   position: relative;
 }
+
+@media (max-width: 425px) {
+  .slider__item {
+    width: 84%;
+    margin-bottom: 110px;
+  }
+}
+

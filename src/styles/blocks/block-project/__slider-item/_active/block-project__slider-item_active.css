@@ -1,0 +1,5 @@
+@media (max-width: 425px) {
+  .block-project__slider-item_active {
+    width: 100%;
+  }
+}

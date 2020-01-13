@@ -3,3 +3,10 @@
   justify-content: center;
   align-items: center;
 }
+
+
+@media (max-width: 1024px) {
+  .organizers .organizers__picture-block_wide {
+    flex-wrap: wrap;
+  }
+}
