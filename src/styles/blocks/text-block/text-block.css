@@ -1,3 +1,6 @@
+@import url(./__container/text-block__container.css);
+@import url(./__paragraph/text-block__paragraph.css);
+
 .text-block {
   width: 100%;
 
