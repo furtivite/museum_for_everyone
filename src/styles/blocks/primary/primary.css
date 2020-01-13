@@ -1,6 +1,14 @@
+@import url(./__container/primary__container.css);
+@import url(./__caption/primary__caption.css);
+@import url(./__img/primary__img.css);
+@import url(./__text/primary__text.css);
+@import url(./__subcaption/primary__subcaption.css);
+@import url(./__big-text/primary__big-text.css);
+@import url(./__timer/primary__timer.css);
+@import url(./__button/primary__button.css);
+
 .primary {
   width: 100%;
-  height: 650px;
 
   background: #F9E7D9;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);

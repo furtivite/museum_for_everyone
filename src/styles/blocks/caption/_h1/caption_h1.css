@@ -1,0 +1,9 @@
+.caption_h1 {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -0.005em;
+
+  color: #001185;
+
+  text-transform: uppercase;
+}

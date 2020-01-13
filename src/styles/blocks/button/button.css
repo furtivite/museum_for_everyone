@@ -1,0 +1,27 @@
+.button {
+  background: #FA8E5A;
+  border-radius: 50px;
+  padding: 20px 48px;
+
+  text-align: center;
+  text-decoration: none;
+
+  font-family: 'Calibri', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+
+  color: #001185;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.button:visited {
+  text-decoration: none;
+  color: inherit;
+}
