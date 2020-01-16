@@ -4,4 +4,11 @@
 
 .block-caption {
   width: 100%;
+  padding: 47px 0px;
+}
+
+@media (max-width: 425px) {
+  .block-caption {
+    padding: 17px 0px;
+  }
 }

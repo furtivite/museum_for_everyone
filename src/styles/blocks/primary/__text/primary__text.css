@@ -13,12 +13,14 @@
 
   display: block;
   max-width: 650px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 425px) {
   .primary__text {
     font-size: 14px;
     line-height: 17px;
+    margin-bottom: 22px;
   }
 }
 

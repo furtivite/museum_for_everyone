@@ -1,12 +1,12 @@
 .footer__container {
-  width: 94%;
+  width: 100%;
   max-width: 1360px;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
-  margin: 53px auto 57px;
+  padding: 0px 20px;
 
   position: relative;
 }

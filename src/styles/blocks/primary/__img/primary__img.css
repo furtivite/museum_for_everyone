@@ -1,7 +1,3 @@
-.primary__img {
-  margin-top: 17px;
-}
-
 @media (max-width: 425px) {
   .primary__img {
     width: 78%;

@@ -8,3 +8,7 @@
 
   color: #000000;
 }
+
+.block-project__paragraph:last-of-type {
+  margin-bottom: 50px;
+}

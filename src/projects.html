@@ -10,13 +10,15 @@
 <body class="body">
   <header class="body__header header">
     <div class="header__container">
-      <picture>
-        <img
-          src="<%=require('./img/logo.png')%>"
-          alt="инклюзивный музей"
-          srcset="<%=require('./img/logo@2x.png')%> 2x, <%=require('./img/logo.png')%> 1x"
-          class="header__logo logo">
-      </picture>
+      <a href="./index.html" class="link">
+        <picture>
+          <img
+            src="<%=require('./img/logo.png')%>"
+            alt="инклюзивный музей"
+            srcset="<%=require('./img/logo@2x.png')%> 2x, <%=require('./img/logo.png')%> 1x"
+            class="header__logo logo">
+        </picture>
+      </a>
       <nav class="header__nav nav">
         <ul class="nav__list">
           <li class="nav__list-item">
@@ -26,13 +28,13 @@
             <a href="#" class="nav__link">Афиша</a>
           </li>
           <li class="nav__list-item">
-            <a href="#" class="nav__link">Организаторы</a>
+            <a href="./index.html#organizers" class="nav__link">Организаторы</a>
           </li>
           <li class="nav__list-item">
             <a href="./projects.html" class="nav__link">Спецпроекты</a>
           </li>
           <li class="nav__list-item">
-            <a href="#" class="nav__link">Партнёры</a>
+            <a href="./index.html#partners" class="nav__link">Партнёры</a>
           </li>
         </ul>
       </nav>
@@ -44,6 +46,28 @@
           class="header__menu">
       </picture>
     </div>
+    <div class="header__menu-block header__menu-block_hidden">
+      <div class="header__container">
+        <nav class="header__menu-block-nav nav">
+          <ul class="nav__list nav__list_menu">
+            <li class="nav__list-item">
+              <a href="./index.html" class="nav__link">Акция</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Афиша</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Организаторы</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="./projects.html" class="nav__link">Спецпроекты</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Партнёры</a>
+            </li>
+          </ul>
+      </div>
+    </div>
   </header>
   <main class="body__main main">
     <section class="main__block-caption block-caption">
@@ -54,196 +78,196 @@
       </div>
     </section>
     <section class="main__article article">
-    <section class="main__block-caption block-caption block-caption_rose">
-      <div class="main__container block-caption__container block-caption__container_align-left block-caption__container_subcaption">
-        <h3 class="block-caption__subcaption">
-          “Неудобные вопросы об инвалидности”
-        </h3>
-      </div>
-    </section>
-    <section class="main__block-project block-project">
-      <div class="main__container block-project__container">
-        <div class="block-project__image-place">
-          <div class="block-project__slider">
-            <div class="block-project__slider-item">
-              <picture>
-                <img
-                  src="<%=require('./img/uncomfortable-question_m1.png')%>"
-                  alt="ICOM NC Russia"
-                  srcset="<%=require('./img/uncomfortable-question_m1@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m1.png')%> 1x"
-                  class="block-project__img">
-              </picture>
+      <section class="article__block-caption block-caption block-caption_rose">
+        <div class="article__container block-caption__container block-caption__container_align-left block-caption__container_subcaption">
+          <h3 class="block-caption__subcaption">
+            “Неудобные вопросы об инвалидности”
+          </h3>
+        </div>
+      </section>
+      <section class="article__block-project block-project">
+        <div class="article__container block-project__container">
+          <div class="block-project__image-place">
+            <div class="block-project__slider">
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m1.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m1@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m1.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m2.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m2@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m2.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m3.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m3@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m3.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
             </div>
-            <div class="block-project__slider-item">
+            <div class="block-project__slider-item block-project__slider-item_active">
               <picture>
                 <img
-                  src="<%=require('./img/uncomfortable-question_m2.png')%>"
+                  src="<%=require('./img/uncomfortable-question_main.png')%>"
                   alt="ICOM NC Russia"
-                  srcset="<%=require('./img/uncomfortable-question_m2@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m2.png')%> 1x"
-                  class="block-project__img">
-              </picture>
-            </div>
-            <div class="block-project__slider-item">
-              <picture>
-                <img
-                  src="<%=require('./img/uncomfortable-question_m3.png')%>"
-                  alt="ICOM NC Russia"
-                  srcset="<%=require('./img/uncomfortable-question_m3@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m3.png')%> 1x"
+                  srcset="<%=require('./img/uncomfortable-question_main@2x.png')%> 2x, <%=require('./img/uncomfortable-question_main.png')%> 1x"
                   class="block-project__img">
               </picture>
             </div>
           </div>
-          <div class="block-project__slider-item block-project__slider-item_active">
-            <picture>
-              <img
-                src="<%=require('./img/uncomfortable-question_main.png')%>"
-                alt="ICOM NC Russia"
-                srcset="<%=require('./img/uncomfortable-question_main@2x.png')%> 2x, <%=require('./img/uncomfortable-question_main.png')%> 1x"
-                class="block-project__img">
-            </picture>
+          <div class="block-project__text-place">
+            <p class="block-project__paragraph">
+              Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.
+            </p>
+            <p class="block-project__paragraph">
+              Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.
+            </p>
+            <a href="#" class="block-project__button button button_white">
+              Перейти
+            </a>
           </div>
         </div>
-        <div class="block-project__text-place">
-          <p class="block-project__paragraph">
-            Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.
-          </p>
-          <p class="block-project__paragraph">
-            Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.
-          </p>
-          <a href="#" class="block-project__button button button_white">
-            Перейти
-          </a>
-        </div>
-      </div>
-    </section>
+      </section>
     </section>
     <section class="main__article article">
-    <section class="main__block-caption block-caption block-caption_rose">
-      <div class="main__container block-caption__container block-caption__container_align-left block-caption__container_subcaption">
-        <h3 class="block-caption__subcaption">
-          “Как помогает ваше домашнее животное в жизни”
-        </h3>
-      </div>
-    </section>
-    <section class="main__block-project block-project block-project">
-      <div class="main__container block-project__container block-project__container_rtl">
-        <div class="block-project__image-place block-project__image-place_rtl">
-          <div class="block-project__slider">
-            <div class="block-project__slider-item">
-              <picture>
-                <img
-                  src="<%=require('./img/uncomfortable-question_m1.png')%>"
-                  alt="ICOM NC Russia"
-                  srcset="<%=require('./img/uncomfortable-question_m1@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m1.png')%> 1x"
-                  class="block-project__img">
-              </picture>
+      <section class="article__block-caption block-caption block-caption_rose">
+        <div class="article__container block-caption__container block-caption__container_align-left block-caption__container_subcaption">
+          <h3 class="block-caption__subcaption">
+            “Как помогает ваше домашнее животное в жизни”
+          </h3>
+        </div>
+      </section>
+      <section class="article__block-project block-project block-project">
+        <div class="article__container block-project__container block-project__container_rtl">
+          <div class="block-project__image-place block-project__image-place_rtl">
+            <div class="block-project__slider">
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m1.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m1@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m1.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m2.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m2@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m2.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m3.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m3@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m3.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
             </div>
-            <div class="block-project__slider-item">
+            <div class="block-project__slider-item block-project__slider-item_active">
               <picture>
                 <img
-                  src="<%=require('./img/uncomfortable-question_m2.png')%>"
+                  src="<%=require('./img/i-understood__main.png')%>"
                   alt="ICOM NC Russia"
-                  srcset="<%=require('./img/uncomfortable-question_m2@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m2.png')%> 1x"
-                  class="block-project__img">
-              </picture>
-            </div>
-            <div class="block-project__slider-item">
-              <picture>
-                <img
-                  src="<%=require('./img/uncomfortable-question_m3.png')%>"
-                  alt="ICOM NC Russia"
-                  srcset="<%=require('./img/uncomfortable-question_m3@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m3.png')%> 1x"
-                  class="block-project__img">
+                  srcset="<%=require('./img/i-understood__main@2x.png')%> 2x, <%=require('./img/i-understood__main.png')%> 1x"
+                  class="block-project__img block-project__img_active">
               </picture>
             </div>
           </div>
-          <div class="block-project__slider-item block-project__slider-item_active">
-            <picture>
-              <img
-                src="<%=require('./img/i-understood__main.png')%>"
-                alt="ICOM NC Russia"
-                srcset="<%=require('./img/i-understood__main@2x.png')%> 2x, <%=require('./img/i-understood__main.png')%> 1x"
-                class="block-project__img block-project__img_active">
-            </picture>
+          <div class="block-project__text-place block-project__text-place_rtl">
+            <p class="block-project__paragraph">
+              Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.
+            </p>
+            <p class="block-project__paragraph">
+              Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.
+            </p>
+            <a href="#" class="block-project__button button button_white">
+              Перейти
+            </a>
           </div>
         </div>
-        <div class="block-project__text-place block-project__text-place_rtl">
-          <p class="block-project__paragraph">
-            Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.
-          </p>
-          <p class="block-project__paragraph">
-            Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.
-          </p>
-          <a href="#" class="block-project__button button button_white">
-            Перейти
-          </a>
-        </div>
-      </div>
-    </section>
+      </section>
     </section>
     <section class="main__article article">
-    <section class="main__block-caption block-caption block-caption_rose">
-      <div class="main__container block-caption__container block-caption__container_align-left block-caption__container_subcaption">
-        <h3 class="block-caption__subcaption">
-          “Как помогает ваше домашнее животное в жизни”
-        </h3>
-      </div>
-    </section>
-    <section class="main__block-project block-project">
-      <div class="main__container block-project__container">
-        <div class="block-project__image-place">
-          <div class="block-project__slider">
-            <div class="block-project__slider-item">
-              <picture>
-                <img
-                  src="<%=require('./img/uncomfortable-question_m1.png')%>"
-                  alt="ICOM NC Russia"
-                  srcset="<%=require('./img/uncomfortable-question_m1@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m1.png')%> 1x"
-                  class="block-project__img">
-              </picture>
+      <section class="article__block-caption block-caption block-caption_rose">
+        <div class="article__container block-caption__container block-caption__container_align-left block-caption__container_subcaption">
+          <h3 class="block-caption__subcaption">
+            “Как помогает ваше домашнее животное в жизни”
+          </h3>
+        </div>
+      </section>
+      <section class="article__block-project block-project">
+        <div class="article__container block-project__container">
+          <div class="block-project__image-place">
+            <div class="block-project__slider">
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m1.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m1@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m1.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m2.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m2@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m2.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m3.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m3@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m3.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
             </div>
-            <div class="block-project__slider-item">
+            <div class="block-project__slider-item block-project__slider-item_active">
               <picture>
                 <img
-                  src="<%=require('./img/uncomfortable-question_m2.png')%>"
+                  src="<%=require('./img/home-pet__main.png')%>"
                   alt="ICOM NC Russia"
-                  srcset="<%=require('./img/uncomfortable-question_m2@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m2.png')%> 1x"
-                  class="block-project__img">
-              </picture>
-            </div>
-            <div class="block-project__slider-item">
-              <picture>
-                <img
-                  src="<%=require('./img/uncomfortable-question_m3.png')%>"
-                  alt="ICOM NC Russia"
-                  srcset="<%=require('./img/uncomfortable-question_m3@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m3.png')%> 1x"
+                  srcset="<%=require('./img/home-pet__main@2x.png')%> 2x, <%=require('./img/home-pet__main.png')%> 1x"
                   class="block-project__img">
               </picture>
             </div>
           </div>
-          <div class="block-project__slider-item block-project__slider-item_active">
-            <picture>
-              <img
-                src="<%=require('./img/home-pet__main.png')%>"
-                alt="ICOM NC Russia"
-                srcset="<%=require('./img/home-pet__main@2x.png')%> 2x, <%=require('./img/home-pet__main.png')%> 1x"
-                class="block-project__img">
-            </picture>
+          <div class="block-project__text-place">
+            <p class="block-project__paragraph">
+              Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.
+            </p>
+            <p class="block-project__paragraph">
+              Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.
+            </p>
+            <a href="#" class="block-project__button button button_white">
+              Перейти
+            </a>
           </div>
         </div>
-        <div class="block-project__text-place">
-          <p class="block-project__paragraph">
-            Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.
-          </p>
-          <p class="block-project__paragraph">
-            Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.
-          </p>
-          <a href="#" class="block-project__button button button_white">
-            Перейти
-          </a>
-        </div>
-      </div>
-    </section>
+      </section>
     </section>
   </main>
   <footer class="body__footer footer">

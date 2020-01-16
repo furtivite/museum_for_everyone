@@ -1,3 +1,6 @@
+@import url(./__block-caption/article__block-caption.css);
+@import url(./__container/article__container.css);
+
 .article {
   width: 100%;
   display: flex;

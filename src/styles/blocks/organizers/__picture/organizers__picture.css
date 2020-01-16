@@ -1,0 +1,12 @@
+.organizers__picture {
+  margin-right: 27px;
+}
+
+@media (max-width: 425px) {
+  .organizers__picture:first-of-type {
+    margin-bottom: 66px;
+  }
+  .organizers__picture {
+    margin-right: 0px;
+  }
+}

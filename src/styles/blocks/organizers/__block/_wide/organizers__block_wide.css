@@ -1,5 +1,11 @@
 .organizers .organizers__block_wide {
   width: 100%;
   text-align: center;
-  margin-bottom: 0px;
+  margin-bottom: 75px;
+}
+
+@media (max-width: 425px) {
+  .organizers .organizers__block_wide {
+    margin-bottom: 50px;
+  }
 }

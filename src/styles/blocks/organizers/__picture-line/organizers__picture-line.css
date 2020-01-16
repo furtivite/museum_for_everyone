@@ -1,0 +1,7 @@
+@media (max-width: 425px) {
+  .organizers__picture-line {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

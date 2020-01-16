@@ -3,13 +3,14 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  padding: 75px 20px 88px;
 }
 
 @media (max-width: 425px) {
   .organizers__container {
     flex-direction: column;
     /* убрать когда добавятся партнёры */
-    margin-bottom: 190px;
+    padding: 75px 0px 190px;
   }
 }
 

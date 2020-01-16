@@ -1,3 +1,5 @@
+@import url(./_menu/nav__list_menu.css);
+
 ul.nav__list {
   display: flex;
   list-style-type: none;

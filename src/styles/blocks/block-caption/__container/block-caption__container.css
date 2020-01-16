@@ -2,15 +2,7 @@
 @import url(./_subcaption/block-caption__container_subcaption.css);
 
 .block-caption__container {
-  width: 94%;
   text-align: center;
-
-  margin: 47px auto;
-}
-
-@media (max-width: 425px) {
-  .block-caption__container {
-    width: 84%;
-    margin: 17px auto;
-  }
+  margin: 0 auto;
+  padding: 0px 20px;
 }

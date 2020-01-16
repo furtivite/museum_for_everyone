@@ -1,6 +1,12 @@
+.footer__copy {
+  position: absolute;
+  left: 20px;
+}
+
 @media (max-width: 425px) {
   .footer__copy {
     position: absolute;
+    left: auto;
     bottom: 38px;
   }
 }
