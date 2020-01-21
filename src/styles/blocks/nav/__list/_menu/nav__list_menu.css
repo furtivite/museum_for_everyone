@@ -1,0 +1,4 @@
+.nav ul.nav__list.nav__list_menu {
+  display: flex;
+  flex-direction: column;
+}

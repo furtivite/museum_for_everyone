@@ -1,0 +1,17 @@
+@import url(../../vendor/fonts/fonts.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/block-caption/block-caption.css);
+@import url(../blocks/article/article.css);
+@import url(../blocks/block-project/block-project.css);
+@import url(../blocks/caption/caption.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/footer/footer.css);
+
+* {
+	box-sizing: border-box;
+}

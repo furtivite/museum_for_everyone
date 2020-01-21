@@ -1,0 +1,21 @@
+@import url(./_wide/organizers__picture-block_wide.css);
+
+.organizers__picture-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-top: 63px;
+}
+
+@media (max-width: 1024px) {
+  .organizers__picture-block {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 425px) {
+  .organizers__picture-block {
+    justify-content: center;
+  }
+}

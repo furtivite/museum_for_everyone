@@ -1,0 +1,17 @@
+.caption_h1 {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -0.005em;
+
+  text-transform: uppercase;
+}
+
+@media (max-width: 425px) {
+  .caption_h1 {
+    text-align: center;
+
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+

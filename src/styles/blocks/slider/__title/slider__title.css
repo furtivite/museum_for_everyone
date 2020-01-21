@@ -1,0 +1,18 @@
+.slider__title {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.005em;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+@media (max-width: 425px) {
+  .slider__title {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

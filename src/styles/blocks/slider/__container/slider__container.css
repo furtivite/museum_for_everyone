@@ -1,0 +1,17 @@
+.slider__container {
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  .slider__container {
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}
+
+

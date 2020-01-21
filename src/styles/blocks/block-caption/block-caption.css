@@ -1,0 +1,14 @@
+@import url(./_rose/block-caption_rose.css);
+@import url(./__container/block-caption__container.css);
+@import url(./__subcaption/block-caption__subcaption.css);
+
+.block-caption {
+  width: 100%;
+  padding: 47px 0px;
+}
+
+@media (max-width: 425px) {
+  .block-caption {
+    padding: 17px 0px;
+  }
+}

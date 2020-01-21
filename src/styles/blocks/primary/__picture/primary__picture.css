@@ -1,0 +1,7 @@
+@media (max-width: 425px) {
+  .primary__picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

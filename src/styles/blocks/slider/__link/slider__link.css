@@ -1,0 +1,16 @@
+.slider__link {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  letter-spacing: -0.005em;
+}
+
+@media (max-width: 425px) {
+  .slider__link {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

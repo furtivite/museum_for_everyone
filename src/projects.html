@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.projects.css %>">
+  <title>Projects</title>
+</head>
+<body class="body">
+  <header class="body__header header">
+    <div class="header__container">
+      <a href="./index.html" class="link">
+        <picture>
+          <img
+            src="<%=require('./img/logo.png')%>"
+            alt="инклюзивный музей"
+            srcset="<%=require('./img/logo@2x.png')%> 2x, <%=require('./img/logo.png')%> 1x"
+            class="header__logo logo">
+        </picture>
+      </a>
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="./index.html" class="nav__link">Акция</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#" class="nav__link">Афиша</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./index.html#organizers" class="nav__link">Организаторы</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./projects.html" class="nav__link">Спецпроекты</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./index.html#partners" class="nav__link">Партнёры</a>
+          </li>
+        </ul>
+      </nav>
+      <picture class="header__menu-item">
+        <img
+          src="<%=require('./img/menu.png')%>"
+          alt="инклюзивный музей"
+          srcset="<%=require('./img/menu@2x.png')%> 2x, <%=require('./img/menu.png')%> 1x"
+          class="header__menu">
+      </picture>
+    </div>
+    <div class="header__menu-block header__menu-block_hidden">
+      <div class="header__container">
+        <nav class="header__menu-block-nav nav">
+          <ul class="nav__list nav__list_menu">
+            <li class="nav__list-item">
+              <a href="./index.html" class="nav__link">Акция</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Афиша</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Организаторы</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="./projects.html" class="nav__link">Спецпроекты</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Партнёры</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </header>
+  <main class="body__main main">
+    <section class="main__block-caption block-caption">
+      <div class="main__container block-caption__container">
+        <h2 class="block-caption__caption caption caption_h2">
+          ПРОЕКТЫ
+        </h2>
+      </div>
+    </section>
+    <section class="main__article article">
+      <section class="article__block-caption block-caption block-caption_rose">
+        <div class="article__container block-caption__container block-caption__container_align-left block-caption__container_subcaption">
+          <h3 class="block-caption__subcaption">
+            “Неудобные вопросы об инвалидности”
+          </h3>
+        </div>
+      </section>
+      <section class="article__block-project block-project">
+        <div class="article__container block-project__container">
+          <div class="block-project__image-place">
+            <div class="block-project__slider">
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m1.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m1@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m1.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m2.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m2@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m2.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m3.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m3@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m3.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+            </div>
+            <div class="block-project__slider-item block-project__slider-item_active">
+              <picture>
+                <img
+                  src="<%=require('./img/uncomfortable-question_main.png')%>"
+                  alt="ICOM NC Russia"
+                  srcset="<%=require('./img/uncomfortable-question_main@2x.png')%> 2x, <%=require('./img/uncomfortable-question_main.png')%> 1x"
+                  class="block-project__img">
+              </picture>
+            </div>
+          </div>
+          <div class="block-project__text-place">
+            <p class="block-project__paragraph">
+              Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.
+            </p>
+            <p class="block-project__paragraph">
+              Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.
+            </p>
+            <a href="#" class="block-project__button button button_white">
+              Перейти
+            </a>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="main__article article">
+      <section class="article__block-caption block-caption block-caption_rose">
+        <div class="article__container block-caption__container block-caption__container_align-left block-caption__container_subcaption">
+          <h3 class="block-caption__subcaption">
+            “Как помогает ваше домашнее животное в жизни”
+          </h3>
+        </div>
+      </section>
+      <section class="article__block-project block-project block-project">
+        <div class="article__container block-project__container block-project__container_rtl">
+          <div class="block-project__image-place block-project__image-place_rtl">
+            <div class="block-project__slider">
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m1.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m1@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m1.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m2.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m2@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m2.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m3.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m3@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m3.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+            </div>
+            <div class="block-project__slider-item block-project__slider-item_active">
+              <picture>
+                <img
+                  src="<%=require('./img/i-understood__main.png')%>"
+                  alt="ICOM NC Russia"
+                  srcset="<%=require('./img/i-understood__main@2x.png')%> 2x, <%=require('./img/i-understood__main.png')%> 1x"
+                  class="block-project__img block-project__img_active">
+              </picture>
+            </div>
+          </div>
+          <div class="block-project__text-place block-project__text-place_rtl">
+            <p class="block-project__paragraph">
+              Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.
+            </p>
+            <p class="block-project__paragraph">
+              Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.
+            </p>
+            <a href="#" class="block-project__button button button_white">
+              Перейти
+            </a>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="main__article article">
+      <section class="article__block-caption block-caption block-caption_rose">
+        <div class="article__container block-caption__container block-caption__container_align-left block-caption__container_subcaption">
+          <h3 class="block-caption__subcaption">
+            “Как помогает ваше домашнее животное в жизни”
+          </h3>
+        </div>
+      </section>
+      <section class="article__block-project block-project">
+        <div class="article__container block-project__container">
+          <div class="block-project__image-place">
+            <div class="block-project__slider">
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m1.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m1@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m1.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m2.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m2@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m2.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+              <div class="block-project__slider-item">
+                <picture>
+                  <img
+                    src="<%=require('./img/uncomfortable-question_m3.png')%>"
+                    alt="ICOM NC Russia"
+                    srcset="<%=require('./img/uncomfortable-question_m3@2x.png')%> 2x, <%=require('./img/uncomfortable-question_m3.png')%> 1x"
+                    class="block-project__img">
+                </picture>
+              </div>
+            </div>
+            <div class="block-project__slider-item block-project__slider-item_active">
+              <picture>
+                <img
+                  src="<%=require('./img/home-pet__main.png')%>"
+                  alt="ICOM NC Russia"
+                  srcset="<%=require('./img/home-pet__main@2x.png')%> 2x, <%=require('./img/home-pet__main.png')%> 1x"
+                  class="block-project__img">
+              </picture>
+            </div>
+          </div>
+          <div class="block-project__text-place">
+            <p class="block-project__paragraph">
+              Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.
+            </p>
+            <p class="block-project__paragraph">
+              Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.
+            </p>
+            <a href="#" class="block-project__button button button_white">
+              Перейти
+            </a>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer class="body__footer footer">
+    <div class="footer__container">
+      <div class="footer__mail">
+        <a href="mailto:inmuseumrus@gmail.com" class="footer__link link">inmuseumrus@gmail.com</a>
+      </div>
+      <div class="footer__copy">
+        <p class="footer__text">2019&nbsp;&copy;&nbsp;Инклюзивный музей</p>
+      </div>
+      <div class="footer__social">
+        <a href="#" class="footer__link link">
+          <picture>
+            <img
+              src="<%=require('./img/youtube.png')%>"
+              alt="youtube"
+              srcset="<%=require('./img/youtube@2x.png')%> 2x, <%=require('./img/youtube.png')%> 1x"
+              class="footer__social-icon">
+          </picture>
+        </a>
+        <a href="#" class="footer__link link">
+          <picture>
+            <img
+              src="<%=require('./img/VK.png')%>"
+              alt="VK"
+              srcset="<%=require('./img/VK@2x.png')%> 2x, <%=require('./img/VK.png')%> 1x"
+              class="footer__social-icon">
+          </picture>
+        </a>
+        <a href="#" class="footer__link link">
+          <picture>
+            <img
+              src="<%=require('./img/facebook.png')%>"
+              alt="facebook"
+              srcset="<%=require('./img/facebook@2x.png')%> 2x, <%=require('./img/facebook.png')%> 1x"
+              class="footer__social-icon">
+          </picture>
+        </a>
+        <a href="#" class="footer__link link">
+          <picture>
+            <img
+              src="<%=require('./img/instagram.png')%>"
+              alt="instagram"
+              srcset="<%=require('./img/instagram@2x.png')%> 2x, <%=require('./img/instagram.png')%> 1x"
+              class="footer__social-icon">
+          </picture>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="<%= htmlWebpackPlugin.files.chunks.projects.entry %>"></script>
+</body>
+</html>

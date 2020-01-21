@@ -1,0 +1,22 @@
+.footer__social {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+
+  position: absolute;
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer__social {
+    width: 220px;
+  }
+}
+
+@media (max-width: 425px) {
+  .footer__social {
+    position: relative;
+    width: 66%;
+    margin-top: 35px;
+  }
+}

@@ -1,0 +1,21 @@
+.text-block__paragraph {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  /* or 180% */
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* прописать верные отступы */
+  /*margin-block-start: 0px;
+  margin-block-end: 0px;*/
+}
+
+@media (max-width: 425px) {
+  .text-block__paragraph {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

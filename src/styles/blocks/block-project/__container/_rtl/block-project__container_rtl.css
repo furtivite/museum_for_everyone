@@ -1,0 +1,9 @@
+.block-project .block-project__container_rtl {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 425px) {
+  .block-project .block-project__container_rtl {
+    flex-direction: column;
+  }
+}

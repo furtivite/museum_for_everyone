@@ -1,0 +1,20 @@
+@import url(./_rtl/block-project__image-place_rtl.css);
+
+.block-project__image-place {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .block-project__image-place {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 425px) {
+  .block-project__image-place {
+    width: 100%;
+  }
+}

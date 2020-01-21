@@ -1,0 +1,21 @@
+@import url(./_rtl/block-project__text-place_rtl.css);
+
+.block-project__text-place {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .block-project__text-place {
+    width: 55%;
+  }
+}
+
+@media (max-width: 425px) {
+  .block-project__text-place {
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+@import url(./__container/block-project__container.css);
+@import url(./__image-place/block-project__image-place.css);
+@import url(./__slider/block-project__slider.css);
+@import url(./__slider-item/block-project__slider-item.css);
+@import url(./__img/block-project__img.css);
+@import url(./__text-place/block-project__text-place.css);
+@import url(./__paragraph/block-project__paragraph.css);
+
+.block-project {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 48px;
+}

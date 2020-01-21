@@ -1,0 +1,14 @@
+.slider__item {
+  width: 33%;
+  /*max-width: 355px;*/
+
+  position: relative;
+}
+
+@media (max-width: 425px) {
+  .slider__item {
+    width: 84%;
+    margin-bottom: 110px;
+  }
+}
+

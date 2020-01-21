@@ -1,0 +1,8 @@
+@import url(./_align-left/block-caption__container_align-left.css);
+@import url(./_subcaption/block-caption__container_subcaption.css);
+
+.block-caption__container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px 20px;
+}

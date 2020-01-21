@@ -1,0 +1,7 @@
+@import url(./__header/body__header.css);
+@import url(./__main/body__main.css);
+@import url(./__footer/body__footer.css);
+
+body.body {
+  margin: 0px;
+}

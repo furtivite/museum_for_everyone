@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.index.css %>">
+  <title>Index</title>
+</head>
+<body class="body">
+  <header class="body__header header">
+    <div class="header__container">
+      <a href="./index.html" class="link">
+        <picture>
+          <img
+            src="<%=require('./img/logo.png')%>"
+            alt="инклюзивный музей"
+            srcset="<%=require('./img/logo@2x.png')%> 2x, <%=require('./img/logo.png')%> 1x"
+            class="header__logo logo">
+        </picture>
+      </a>
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="./index.html" class="nav__link">Акция</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#afisha" class="nav__link">Афиша</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#organizers" class="nav__link">Организаторы</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./projects.html" class="nav__link">Спецпроекты</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#partners" class="nav__link">Партнёры</a>
+          </li>
+        </ul>
+      </nav>
+      <picture class="header__menu-item">
+        <img
+          src="<%=require('./img/menu.png')%>"
+          alt="инклюзивный музей"
+          srcset="<%=require('./img/menu@2x.png')%> 2x, <%=require('./img/menu.png')%> 1x"
+          class="header__menu">
+      </picture>
+    </div>
+    <div class="header__menu-block header__menu-block_hidden">
+      <div class="header__container">
+        <nav class="header__menu-block-nav nav">
+          <ul class="nav__list nav__list_menu">
+            <li class="nav__list-item">
+              <a href="./index.html" class="nav__link">Акция</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Афиша</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Организаторы</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="./projects.html" class="nav__link">Спецпроекты</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" class="nav__link">Партнёры</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </header>
+  <main class="body__main main">
+    <section class="main__primary primary" id="primary">
+      <div class="main__container primary__container">
+        <h1 class="primary__caption caption caption_h1 caption_blue">
+          всероссийская инклюзивная&nbsp;акция
+        </h1>
+        <picture class="primary__picture">
+          <img
+            src="<%=require('./img/primary__img.png')%>"
+            alt="музей для всех"
+            srcset="<%=require('./img/primary__img@2x.png')%> 2x, <%=require('./img/primary__img.png')%> 1x"
+            class="primary__img">
+        </picture>
+        <p class="primary__text">
+          Выставки, экскурсии, концерты, театральные квесты и мастер-классы для детей и взрослых, с инвалидностью и без
+        </p>
+        <h2 class="primary__subcaption caption caption_h2 caption_blue">
+          18-20 апреля 2020
+        </h2>
+        <p class="primary__big-text">
+          До начала акции осталось:
+        </p>
+        <p class="primary__timer">
+          <span class="primary__days">117</span>&nbsp;дней
+        </p>
+        <a href="#afisha" class="primary__button button button_first">
+          Афиша мероприятий
+        </a>
+      </div>
+    </section>
+    <section class="main__text-block text-block">
+      <div class="main__container text-block__container">
+        <p class="text-block__paragraph">
+          Акция &laquo;Музей для всех&raquo; пройдет в России в третий раз. В 2017 году акция объединила более 250 российских музеев и 13000 участников, а в 2018 году в ней приняли участие 360 музеев и 16700 человек со всей страны. Мы надеемся, что количество наших единомышленников будет расти!
+        </p>
+        <p class="text-block__paragraph">
+          В рамках акции музеи приглашают посетителей на выставки, экскурсии, концерты, театральные квесты и мастер-классы, адаптированные или созданные с участием людей с инвалидностью.
+        </p>
+        <p class="text-block__paragraph">
+          Задача акции — привлечь внимание широкой общественности к значимости равноправного участия всех людей в культурной жизни. В этот день музеи приглашают всех тех, кто поддерживает развитие инклюзии в нашей стране.
+        </p>
+      </div>
+    </section>
+    <section class="main__block-caption block-caption block-caption_rose">
+      <div class="main__container block-caption__container">
+        <h2 class="block-caption__caption caption caption_h2">
+          ПРОЕКТЫ
+        </h2>
+      </div>
+    </section>
+    <section class="main__slider slider">
+      <div class="main__container slider__container">
+        <div class="slider__item">
+          <picture>
+            <img
+              src="<%=require('./img/uncomfortable-question.png')%>"
+              alt="неудобные вопросы"
+              srcset="<%=require('./img/uncomfortable-question@2x.png')%> 2x, <%=require('./img/uncomfortable-question.png')%> 1x"
+              class="slider__img">
+          </picture>
+          <div class="slider__title-block">
+            <h3 class="slider__title">
+              "Неудобные вопросы об инвалидности"
+            </h3>
+            <div class="slider__link-block">
+              <div class="slider__line"></div>
+              <a href="#" class="slider__link link">
+                Узнать больше
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="slider__item">
+          <picture>
+            <img
+              src="<%=require('./img/i-understood.png')%>"
+              alt="как я понял, что у меня инвалидность"
+              srcset="<%=require('./img/i-understood@2x.png')%> 2x, <%=require('./img/i-understood.png')%> 1x"
+              class="slider__img">
+          </picture>
+          <div class="slider__title-block">
+            <h3 class="slider__title">
+              "Как я понял, что у меня инвалидность"
+            </h3>
+            <div class="slider__link-block">
+              <div class="slider__line"></div>
+              <a href="#" class="slider__link link">
+                Узнать больше
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="slider__item">
+          <picture>
+            <img
+              src="<%=require('./img/home-pet.png')%>"
+              alt="как помогает домашнее животное"
+              srcset="<%=require('./img/home-pet@2x.png')%> 2x, <%=require('./img/home-pet.png')%> 1x"
+              class="slider__img">
+          </picture>
+          <div class="slider__title-block">
+            <h3 class="slider__title">
+              "Как помогает домашнее животное в жизни"
+            </h3>
+            <div class="slider__link-block">
+              <div class="slider__line"></div>
+              <a href="#" class="slider__link link">
+                Узнать больше
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main__button-block button-block" id="afisha">
+      <div class="main__container button-block__container">
+        <a href="#" class="button-block__button button">
+          Афиша мероприятий
+        </a>
+      </div>
+    </section>
+    <section class="main__organizers organizers" id="organizers">
+      <div class="main__container organizers__container">
+        <div class="organizers__block organizers__block_wide">
+          <h2 class="organizers__caption caption caption_h2">
+            Организаторы
+          </h2>
+          <div class="organizers__picture-block organizers__picture-block_wide">
+            <picture class="organizers__picture">
+              <img
+                src="<%=require('./img/logo.png')%>"
+                alt="инклюзивный музей"
+                srcset="<%=require('./img/logo@2x.png')%> 2x, <%=require('./img/logo.png')%> 1x"
+                class="organizers__img">
+            </picture>
+            <div class="organizers__picture-line">
+              <picture class="organizers__picture">
+                <img
+                  src="<%=require('./img/ICOM_NC.png')%>"
+                  alt="ICOM NC Russia"
+                  srcset="<%=require('./img/ICOM_NC@2x.png')%> 2x, <%=require('./img/ICOM_NC.png')%> 1x"
+                  class="organizers__img">
+              </picture>
+              <picture class="organizers__picture">
+                <img
+                  src="<%=require('./img/logo_for_movie.png')%>"
+                  alt="колесо обозрения"
+                  srcset="<%=require('./img/logo_for_movie@2x.png')%> 2x, <%=require('./img/logo_for_movie.png')%> 1x"
+                  class="organizers__img">
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="organizers__block">
+          <h2 class="organizers__caption caption caption_h2">
+            При поддержке
+          </h2>
+          <div class="organizers__picture-block">
+            <picture class="organizers__picture">
+              <img
+                src="<%=require('./img/vklad.png')%>"
+                alt="вклад в будущее"
+                srcset="<%=require('./img/vklad@2x.png')%> 2x, <%=require('./img/vklad.png')%> 1x"
+                class="organizers__img">
+            </picture>
+            <div class="organizers__picture-line">
+              <picture class="organizers__picture">
+                <img
+                  src="<%=require('./img/VPF.png')%>"
+                  alt="Всероссийский фонд Владимира Потанина"
+                  srcset="<%=require('./img/VPF@2x.png')%> 2x, <%=require('./img/VPF.png')%> 1x"
+                  class="organizers__img">
+              </picture>
+              <picture class="organizers__picture">
+                <img
+                  src="<%=require('./img/kultura_rf.png')%>"
+                  alt="культура.рф"
+                  srcset="<%=require('./img/kultura_rf@2x.png')%> 2x, <%=require('./img/kultura_rf.png')%> 1x"
+                  class="organizers__img">
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="organizers__block" id="partners">
+          <h2 class="organizers__caption caption caption_h2">
+            Партнёры
+          </h2>
+          <div class="organizers__picture-block">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="body__footer footer">
+    <div class="footer__container">
+      <div class="footer__mail">
+        <a href="mailto:inmuseumrus@gmail.com" class="footer__link link">inmuseumrus@gmail.com</a>
+      </div>
+      <div class="footer__copy">
+        <p class="footer__text">2019&nbsp;&copy;&nbsp;Инклюзивный музей</p>
+      </div>
+      <div class="footer__social">
+        <a href="#" class="footer__link link">
+          <picture>
+            <img
+              src="<%=require('./img/youtube.png')%>"
+              alt="youtube"
+              srcset="<%=require('./img/youtube@2x.png')%> 2x, <%=require('./img/youtube.png')%> 1x"
+              class="footer__social-icon">
+          </picture>
+        </a>
+        <a href="#" class="footer__link link">
+          <picture>
+            <img
+              src="<%=require('./img/VK.png')%>"
+              alt="VK"
+              srcset="<%=require('./img/VK@2x.png')%> 2x, <%=require('./img/VK.png')%> 1x"
+              class="footer__social-icon">
+          </picture>
+        </a>
+        <a href="#" class="footer__link link">
+          <picture>
+            <img
+              src="<%=require('./img/facebook.png')%>"
+              alt="facebook"
+              srcset="<%=require('./img/facebook@2x.png')%> 2x, <%=require('./img/facebook.png')%> 1x"
+              class="footer__social-icon">
+          </picture>
+        </a>
+        <a href="#" class="footer__link link">
+          <picture>
+            <img
+              src="<%=require('./img/instagram.png')%>"
+              alt="instagram"
+              srcset="<%=require('./img/instagram@2x.png')%> 2x, <%=require('./img/instagram.png')%> 1x"
+              class="footer__social-icon">
+          </picture>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="<%= htmlWebpackPlugin.files.chunks.index.entry %>"></script>
+</body>
+</html>

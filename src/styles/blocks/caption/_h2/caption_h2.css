@@ -1,0 +1,13 @@
+.caption_h2 {
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -0.005em;
+}
+
+@media (max-width: 425px) {
+  .caption_h2 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+

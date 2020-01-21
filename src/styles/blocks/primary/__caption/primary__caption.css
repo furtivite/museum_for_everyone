@@ -1,0 +1,7 @@
+@media (max-width: 425px) {
+  .primary .primary__caption {
+    display: block;
+    width: 85%;
+    margin-bottom: 17px;
+  }
+}

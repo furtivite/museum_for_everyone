@@ -1,0 +1,21 @@
+@import url(./_wide/organizers__block_wide.css);
+
+.organizers__block {
+  width: 50%;
+  margin-bottom: 0px;
+}
+
+.organizers__block:first-of-type {
+  margin-bottom: 88px;
+}
+
+
+@media (max-width: 425px) {
+  .organizers__block {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+  .organizers__block:last-of-type {
+    margin-bottom: 0px;
+  }
+}
